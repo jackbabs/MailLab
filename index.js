@@ -6,7 +6,7 @@ const keys = require('./config/keys')
 require('./models/User')
 require('./services/passport')
 
-mongoose.connect(keys.mongodb_URI)
+mongoose.connect(keys.mongodbURI)
 // mongoose.connect('mongodb://localhost:27017/maillab-dev')
 
 
