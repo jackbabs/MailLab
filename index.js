@@ -7,7 +7,7 @@ require('./models/User')
 require('./services/passport')
 
 
-mongoose.connect('mongodb://localhost:27017/maillab-dev')
+// mongoose.connect('mongodb://localhost:27017/maillab-dev')
 
 const app = express()
 
